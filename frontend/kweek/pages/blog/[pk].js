@@ -31,9 +31,9 @@ export default function BlogPost(props) {
             {props.currentLang=='en'?data.titleEn:data.titleJp}
         </Heading>
         <Divider colorScheme="linkedin" />
-        {data.boxes.map((box)=>{
+        {data.boxes.map((box, i)=>{
           return(
-            <BlogBox data={box} currentLang={props.currentLang}/>
+            <BlogBox data={box} key={i} currentLang={props.currentLang}/>
           )
         })}
       </Box>
