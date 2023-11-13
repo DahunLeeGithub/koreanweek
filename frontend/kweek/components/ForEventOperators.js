@@ -156,7 +156,7 @@ export default function ForEventOperators(props) {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                ''
+                '/images/songchan.png'
               }
               name={'LEE SEONGCHAN'}
               title={props.currentLang=='en'?
