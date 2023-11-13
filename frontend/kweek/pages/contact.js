@@ -38,6 +38,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/django-logo.png'
 										alt="django logo"
@@ -49,6 +50,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/drf-logo.png'
 										alt="django rest framework logo"
@@ -60,6 +62,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/react-logo.png'
 										alt="react logo"
@@ -71,6 +74,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/Nextjs-logo.png'
 										alt="Nextjs logo"
@@ -82,6 +86,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/chakraui-logo.png'
 										alt="chakraui logo"
@@ -93,6 +98,7 @@ const Contact = (props) => {
 									<Image
 										height='150'
 										maxW='400'
+										w={'100%'}
 										objectFit='contain'
 										src='/images/aws-logo.png'
 										alt="aws logo"

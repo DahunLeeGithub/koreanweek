@@ -26,7 +26,7 @@ const TestimonialContent = (props) => {
       bg={useColorModeValue('white', 'gray.800')}
       boxShadow={'lg'}
       p={8}
-      minW={320}
+      minW={295}
       rounded={'xl'}
       align={'center'}
       pos={'relative'}
@@ -158,7 +158,7 @@ export default function ForEventOperators(props) {
               src={
                 ''
               }
-              name={'Ko Jeongmin'}
+              name={'LEE SEONGCHAN'}
               title={props.currentLang=='en'?
                 'Member of Sponsor Team':
                 'スポンサーチームのメンバー'
