@@ -23,7 +23,7 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons'
 import Link from 'next/link'
-import LoginModal from './loginModal'
+import LoginModal from './LoginModal'
 
 export default function WithSubnavigation(props) {
   const { isOpen, onToggle } = useDisclosure()
